@@ -2,7 +2,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        Presidente presidente = new Presidente(" Carlos ", " Perez ", " entrenador ");
+        Presidente presidente = new Presidente(" Marcos ", " Perez ", " entrenador ");
         Entrenador entrenador = new Entrenador(" Javier ", " Lopez ", LocalDate.of(1990, 5, 1));
         Liga liga = new Liga(123, " Liga ");
 
